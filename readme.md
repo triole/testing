@@ -7,7 +7,7 @@
 
 ## Badges
 
-![coverage](https://img.shields.io/badge/coverage-33%25-violet)
+![ccc](https://github.com/triole/testing/releases/download/1/_badge_tests.svg)
 
 ## Help
 
