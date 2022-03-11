@@ -1,4 +1,4 @@
-# Example ![example workflow](https://github.com/triole/example/actions/workflows/build.yaml/badge.svg)
+# Example ![example workflow](https://github.com/triole/testing/actions/workflows/build.yaml/badge.svg)
 
 <!--- mdtoc: toc begin -->
 
