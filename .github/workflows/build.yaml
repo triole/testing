@@ -29,6 +29,14 @@ jobs:
                     SOURCE_FOLDER: src
                 run: curl -sL https://raw.githubusercontent.com/triole/ghwfe/master/sh/go_add_sub_packages.sh | bash
             -
+                name: Test
+                env:
+                    GOROOT: /home/runner/.local/go
+                    SOURCE_FOLDER: src
+                    TARGET_FOLDER: /tmp/assets
+                    MAKE_BADGES: "true"    # note that quotation marks are necessary
+                run: curl -sL https://raw.githubusercontent.com/triole/ghwfe/test/sh/go_test.sh | bash
+            -
                 name: Build
                 env:
                     GOROOT: /home/runner/.local/go

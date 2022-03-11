@@ -2,7 +2,12 @@
 
 <!--- mdtoc: toc begin -->
 
-1. [Help](#help)<!--- mdtoc: toc end -->
+1. [Badges](#badges)
+2. [Help](#help)<!--- mdtoc: toc end -->
+
+## Badges
+
+![coverage](https://img.shields.io/badge/coverage-33%25-violet)
 
 ## Help
 
