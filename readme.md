@@ -1,9 +1,11 @@
 # Example ![example workflow](https://github.com/triole/example/actions/workflows/build.yaml/badge.svg)
 
-<!--- mdtoc: toc begin -->
+<!-- toc -->
 
-1. [Help](#help)
-2. [More text](#more-text)<!--- mdtoc: toc end -->
+- [Help](#help)
+- [More text](#more-text)
+
+<!-- /toc -->
 
 ## Help
 
