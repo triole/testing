@@ -14,15 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: |
+        run: >
           sudo apt install -y curl
       - name: Checkout
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - name: Install Go
-        run: |
-          env | sort
-          echo $PATH
-          curl -sL https://raw.githubusercontent.com/triole/ghwfe/master/sh/go_install.sh | bash -- --sudo
-
+        run: >
+          curl -sL https://raw.githubusercontent.com/triole/ghwfe/master/sh/go_install.sh
+          | bash -- --sudo
