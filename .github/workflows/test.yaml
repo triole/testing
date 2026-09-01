@@ -23,4 +23,4 @@ jobs:
       - name: Install Go
         run: >
           curl -sL https://raw.githubusercontent.com/triole/ghwfe/master/sh/go_install.sh
-          | bash -- --sudo
+          | bash -s -- --sudo
