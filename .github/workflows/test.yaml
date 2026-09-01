@@ -11,7 +11,7 @@ jobs:
   test:
     name: go test
     permissions: write-all
-    runs-on: ubuntu-26.04
+    runs-on: ubuntu-all
     steps:
       - name: Install dependencies
         run: |
@@ -20,7 +20,9 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Testing
+      - name: Install Go
         run: |
           env | sort
-          cat /etc/os-release
+          echo $PATH
+          curl -sL https://raw.githubusercontent.com/triole/ghwfe/master/sh/go_install.sh | bash
+
